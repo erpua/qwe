@@ -1,0 +1,29 @@
+.siteNavigation {
+  padding: 10px;
+  background: teal;
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+}
+
+.menuList {
+  margin-right: 50px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover,
+.link:focus {
+  color: orange;
+}
+
+.activeLink {
+  color: blue;
+}
